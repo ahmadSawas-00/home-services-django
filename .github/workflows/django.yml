@@ -24,6 +24,5 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run Tests
-      working-directory: ./MyFirstApp
       run: |
         python manage.py test services
